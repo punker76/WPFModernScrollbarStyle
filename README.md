@@ -7,20 +7,20 @@ A modern scrollbar style for WPF XAML
 2. Add `<ResourceDictionary Source="Scrollbar.xaml"/>` to your merged dictionaries int `App.xaml`.
 
 ```
-<Application ...namespaces... >
+    <Application ...namespaces... >
     
-    <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                ...other resource dictionaries...
+        <Application.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    ...other resource dictionaries...
                 
-                <ResourceDictionary Source="Scrollbar.xaml"/>
+                    <ResourceDictionary Source="Scrollbar.xaml"/>
                 
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Application.Resources>
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Application.Resources>
     
-    ...
+        ...
     
-</Application>
+    </Application>
 ```
