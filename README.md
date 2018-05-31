@@ -6,7 +6,7 @@ A modern scrollbar style for WPF XAML
 1. Add `Scrollbar.xaml` to your project.
 2. Add `<ResourceDictionary Source="Scrollbar.xaml"/>` to your merged dictionaries int `App.xaml`.
 
-```
+```c#
 <Application ...namespaces... >
     <Application.Resources>
         <ResourceDictionary>
