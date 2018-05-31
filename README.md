@@ -1,6 +1,8 @@
 # WPFModernScrollbarStyle
 A modern scrollbar style for WPF XAML
 
+![Screenshot](image.png)
+
 ## Usage
 
 1. Add `Scrollbar.xaml` to your project.
